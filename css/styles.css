@@ -62,6 +62,7 @@ main {
 .card {
   background-color: var(--white);
   border-radius: 2rem;
+  box-shadow: 0 4rem 4rem -2rem rgba(13, 48, 189, 0.1518);
 }
 
 .img-container img {
@@ -227,5 +228,6 @@ button {
 
   .attribution {
     flex-direction: column;
+    align-items: center;
   }
 }
